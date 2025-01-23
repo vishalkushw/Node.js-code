@@ -1,0 +1,194 @@
+
+
+#header 
+{
+  width: 100%;
+  padding:20px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+#header h1 
+{
+  color: rgb(229, 123, 11);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer
+{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.801);
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  line-height: 2;
+  color: gray;
+}
+
+#myform
+{
+  width: 400px;
+  margin: auto;
+  padding-top: 50px;
+  
+}
+
+#admindata
+{
+  padding: 10px;
+  background-color: rgb(83, 83, 121);
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logoutbtn
+{
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+a.logoutbtn:hover
+{
+  text-decoration: none;
+  color: rgb(123, 198, 217);
+  margin-left: 10px;
+}
+
+#adminarea
+{
+  display: flex;
+  
+}
+
+#adminMenu
+{
+  width: 15%;
+}
+#adminRightData
+{
+  width: 85%;
+}
+
+#userdisplaylogin
+{
+  padding: 10px;
+  background-color: rgb(247, 231, 122);
+  color: rgb(51, 40, 36);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+#userDashbordData
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+#userleftmenu
+{
+  width: 20%;
+  padding-top: 20px;
+}
+
+#userrightdata
+{
+  width: 80%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#myform {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #883131;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10%;
+  border-radius: 15px;
+}
+
+#myform h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.form-select {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+button[type="button"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #3e8b8e;
+}
+
+
+
+
+
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+}
+
+#header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#header h1 {
+  color: #00c3ff;
+}
