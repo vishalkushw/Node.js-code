@@ -7,5 +7,5 @@ app.use("/students", stuRoute);
 app.use("/teacher",teachRoute);
 
 app.listen(9000,()=>{
-    console.log("service run on 9000");
+    console.log("server run on port 9000");
 })
