@@ -5,9 +5,9 @@ const stuRoutes = require("./routes/stuRoute")
 
 app.use("/students", stuRoutes);
 mongoose.connect("mongodb://127.0.0.1:27017/vishal").then(()=>{
-    console.log("Data base Connected! ")
+    console.log("Database Connected! ")
 })
 
 app.listen(8000,()=>{
-    console.log("server run on 8000")
+    console.log("server run on port 8000")
 })
