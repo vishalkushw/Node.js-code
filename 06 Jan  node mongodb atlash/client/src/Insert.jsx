@@ -25,7 +25,7 @@ const Insert=()=>{
         
 
         axios.post(api, {...input, images:myimg}).then((res)=>{
-            alert("data save !!!");
+            alert("Data save !");
         })
     }
 
