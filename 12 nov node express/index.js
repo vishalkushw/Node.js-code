@@ -54,7 +54,7 @@ app.get("/save",(req,res)=>{
 })
 
 app.post("/about",(req,res)=>{
-    res.send("This is post request by user");
+    res.send("This is post request send by user");
 })
 app.get("/servicePage",(req,res)=>{
     res.send("This is service page by user");
