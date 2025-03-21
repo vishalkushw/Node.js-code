@@ -10,5 +10,5 @@ app.use(bodyparser.json())
 app.use("/students", stuRoute);
 
 app.listen(8080,()=>{
-    console.log("server run on 8080");
+    console.log("Server Run on 8080");
 })
