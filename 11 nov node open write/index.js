@@ -27,6 +27,6 @@
 
 const http=require("http");
 http.createServer((req,res)=>{
-    res.write("<h1> We are cybrom student </h1>");
+    res.write("<h1> We are Cybrom Student </h1>");
     res.end("<h1>code end here nodemon</h1>");
 }).listen(8080);
