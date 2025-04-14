@@ -10,7 +10,7 @@
 
 
 const fs = require("fs");
-fs.appendFile("vsk.pdf","Hellow i am a student of cybrom ",(err)=>{
+fs.appendFile("vsk.pdf","Hellow i Am a Student of cybrom ",(err)=>{
 
     if(err)throw err;
     console.log("File succesfuly create");
