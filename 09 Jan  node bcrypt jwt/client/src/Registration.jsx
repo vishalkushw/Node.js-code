@@ -12,7 +12,7 @@ const Registration=()=>{
   const handleSubmit=()=>{
     let api="http://localhost:8000/user/registration";
     axios.post(api, input).then((res)=>{
-      alert("You are succesfully Registered!!!");
+      alert("You Are Succesfully Registered!!!");
     })
   }
 
