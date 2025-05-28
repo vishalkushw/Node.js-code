@@ -29,5 +29,5 @@ app.get("/home",(req ,res)=>{
 })
 
 app.listen(8000,()=>{
-console.log("server run on port 8000");
+console.log("Server Run on port 8000");
 })
