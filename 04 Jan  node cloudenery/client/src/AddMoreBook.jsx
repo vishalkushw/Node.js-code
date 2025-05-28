@@ -21,7 +21,7 @@ const AddMoreBook=()=>{
           Enter Book Title : <input type="text" name="booktitle" 
           value={input.booktitle}  onChange={handleInput}/>
           <br/>
-          Enter Price : <input type="text" name="bookprice"
+          Enter book Price : <input type="text" name="bookprice"
           value={input.bookprice}  onChange={handleInput}/>
           <br/>
           <button onClick={handleSubmit}>Save!</button>
