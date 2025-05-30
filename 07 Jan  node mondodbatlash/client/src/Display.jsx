@@ -28,7 +28,7 @@ const Display=()=>{
     })
     return(
         <>
-          <h1> Display Data</h1>
+          <h1> Display data </h1>
           <table>
             <tr>
                 <th> </th>
