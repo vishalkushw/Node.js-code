@@ -1,3 +1,3 @@
 exports.mycollage=()=>{
- return "<h1> we are cybrom student </h1>";
+ return "<h1> We are Cybrom student </h1>";
 }
